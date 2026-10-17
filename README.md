@@ -1,5 +1,13 @@
 # Campaign Admin CRM
 
+**What it is:** An internal admin tool for looking up a campaign contact's full relationship history in one place.
+**Why it existed:** The underlying database already held everything a campaign needs to know about a person, but only through single-purpose automated workflows — no human-facing lookup tool existed.
+**What I owned:** Full design and build.
+**Stack:** Next.js, PostgreSQL (fully parameterized queries).
+**Production status:** Live internal tool. No real data ships with this repo.
+
+---
+
 A small internal admin tool for a political campaign: a searchable contact
 list and per-contact profile pulling together donation history, volunteer
 status, and interaction log — all from one shared campaign database, for a
